@@ -13,7 +13,6 @@ const App = () => {
   function buttonClickHandler() {
     setRenderBall(true);
     document.addEventListener("keydown", handleKeyPress);
-    console.log("m");
   }
   const reset = () => {};
   const renderChoice = () => {
